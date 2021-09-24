@@ -26,6 +26,8 @@ const (
 	ApiScope = "https://open.feishu.cn/open-apis/contact/v1/scope/get"
 	//获取通讯录授权范围v2
 	ApiScopeV2 = "https://open.feishu.cn/open-apis/contact/v2/scope/get"
+	//使用手机号或邮箱获取用户 ID
+	ApiBatchGetUserId = "https://open.feishu.cn/open-apis/user/v1/batch_get_id"
 
 	//获取部门列表
 	ApiDepartmentSimpleList = "https://open.feishu.cn/open-apis/contact/v1/department/simple/list"
@@ -130,6 +132,8 @@ const (
 	ApiIsUserAdmin = "https://open.feishu.cn/open-apis/application/v3/is_user_admin"
 	//查询应用管理员列表
 	ApiAdminUserList = "https://open.feishu.cn/open-apis/user/v4/app_admin_user/list"
+	//获取企业信息
+	ApiOrgInfo = "https://open.feishu.cn/open-apis/tenant/v2/tenant/query"
 
 	////////用户群组
 	//获取用户所在的群列表
